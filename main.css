@@ -71,6 +71,43 @@ nav#main_header + div {
 	padding-bottom: 10px;
 }
 
+#selection {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-right: 50px;
+}
+
+.select_list {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.select_tags {
+	padding-right: 40px;
+	padding-left: 40px;
+
+	font-size: 32px;
+}
+
+.select_tags p {
+	margin: 0px;
+}
+
+.select_list a {
+	text-decoration: none;
+	color: #8d67ac;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.select_list a:hover {
+	color: #59267c;
+
+	-webkit-filter: initial;
+	filter: initial;
+}
+
 #about h1 {
 	text-align: left;
 	margin-left: 20px;
