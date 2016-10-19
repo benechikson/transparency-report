@@ -89,6 +89,10 @@ nav#main_header + div {
 	font-size: 32px;
 }
 
+.select_icons {
+	font-size: 32px;
+}
+
 .select_tags p {
 	margin: 0px;
 }
@@ -96,16 +100,10 @@ nav#main_header + div {
 .select_list a {
 	text-decoration: none;
 	color: #8d67ac;
-
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
 }
 
 .select_list a:hover {
 	color: #59267c;
-
-	-webkit-filter: initial;
-	filter: initial;
 }
 
 #about h1 {

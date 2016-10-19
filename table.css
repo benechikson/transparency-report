@@ -7,23 +7,6 @@ a {
 	background-color: #713a92;
 }
 
-#top_wrapper header {
-	font-size: 28px;
-}
-
-#home {
-	height: 36px;
-}
-
-#home img {
-	height: 32px;
-}
-
-#home a {
-	font-size: 32px;
-	color: #eaeaea;
-}
-
 #date_select {
 	margin-bottom: 10px;
 
@@ -46,7 +29,6 @@ a {
 }
 
 #about {
-	background-color: #eaeaea;
 	padding-bottom: 15px;
 }
 
@@ -69,6 +51,14 @@ table {
 
 	background-color: #f8f8f8;
 	font-size: 24px;
+}
+
+about {
+    background: #eaeaea; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eaeaea, #fffbff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eaeaea, #fffbff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#eaeaea, #fffbff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#eaeaea, #fffbff);/* Standard */
 }
 
 th {
